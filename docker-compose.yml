@@ -1,0 +1,7 @@
+version: "3.4"
+services:
+  kube-news:
+    image: cordeirogustavo/kube-news:latest
+    build:
+      context: ./src
+      dockerfile: Dockerfile
